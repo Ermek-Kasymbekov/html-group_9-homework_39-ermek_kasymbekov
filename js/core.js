@@ -16,7 +16,7 @@ $(document).ready(function(){
     });
 
 
-    var error_txt = '<em>Это поле нужно обязательно заполнить</em>';
+    var error_txt = '<em>Это поле нужно заполнить</em>';
 
     $('.req').focusout(function(){
         if($(this).val() != ''){

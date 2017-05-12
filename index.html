@@ -4,18 +4,17 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-
 	<div class="container">
 		<header class="header clearfix">
-			<div class="header__logo">
+			<a href="#" class="header__logo">
 				<img src="img/logo.png" width="151" height="30" alt="">
-			</div>
+			</a>
 			<nav class="menu">
 				<a href="#" class="menu__link">Home</a>
 				<a href="#" class="menu__link">Services</a>
@@ -34,54 +33,49 @@
 			</p>
 		</div>
 
-		<div class="contacts">
-			<div class="address">
+		<div class="contacts clearfix">
+			<div class="address contacts__element">
 				<div class="address__title">Address</div>
 				<div class="address__place place">
 					<span class="place__detail place__detail--title">Acrostia</span>
 					<span class="place__detail">Sevenoaks Rd</span>
 					<span class="place__detail">Sevenoaks TN14 7HR, UK</span>
 				</div>
-				<div class="address__details details">
+				<div class="address__details details clearfix">
 					<span class="details__name">Phone: <span class="details__num">+44 556  555 555</span></span>
-					<span class="details__name">Fax: <span class="details__num">+44 556  555 555</span></span>
-					<span class="details__name">E-mail: <span class="details__num">info@acrostia.com</span></span>
-					<span class="details__name">Skype: <span class="details__num">Ac0stia</span></span>
+					<span class="details__name">Fax:   <span class="details__num">+44 556  555 555</span></span>
+					<span class="details__name">E-mail:<span class="details__num">info@acrostia.com</span></span>
+					<span class="details__name">Skype: <span class="details__num details__num--skype">Ac0stia</span></span>
 				</div>
 			</div>
-			<div class="map">
+			<div class="map contacts__element">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2068.5695109453386!2d74.59857628957968!3d42.84330634891736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2skg!4v1494566302483" width="260" height="220" frameborder="0" style="border:0;border-radius:3px" allowfullscreen></iframe>
 			</div>
-			<div class="question">
+			<div class="question contacts__element">
 				<div class="question__title">Ask a question</div>
 				<div class="form form--registration">
 					<form action="#">
 						<div class="form__row">
-							<input id="first_name" type="text" class="req form__field form__field--w100">
-							<input id="email" type="text" class="req email form__field form__field--w100">
+							<input id="first_name" type="text" class="req form__field form__field--w100" placeholder="Name">
+							<input id="email" type="text" class="req email form__field form__field--w100" placeholder="Email">
 						</div>
 						<div class="form__row">
-							<textarea name='comment' id='comment'></textarea>
+							<textarea class="form__textarea" name='comment' id='comment' placeholder="Your question"></textarea>
 						</div>
 						<button class="btn">Send</button>
 					</form>
 				</div>
 			</div>
 		</div>
-		<footer class="footer">
-			<div class="icons">
-				<a href="#" class="icon icons__facebook"><img src="img/facebook.svg" width="60" height="60" alt=""></a>
-				<a href="#" class="icon icons__twitter"><img src="img/twitter.svg" width="60" height="60" alt=""></a>
-				<a href="#" class="icon icons__google"><img src="img/google.svg" width="60" height="60" alt=""></a>
-				<a href="#" class="icon icons__linkedin"><img src="img/linkedin.svg" width="60" height="60" alt=""></a>
-			</div>
-		</footer>
-
-
-
-
 	</div>
-
+	<footer class="footer">
+		<div class="icons container">
+			<a href="#" class="icon icons__facebook"><img src="img/facebook.svg" width="60" height="60" alt=""></a>
+			<a href="#" class="icon icons__twitter"><img src="img/twitter.svg" width="60" height="60" alt=""></a>
+			<a href="#" class="icon icons__google"><img src="img/google.svg" width="60" height="60" alt=""></a>
+			<a href="#" class="icon icons__linkedin"><img src="img/linkedin.svg" width="60" height="60" alt=""></a>
+		</div>
+	</footer>
 
 				<script src="vendor/jquery/jquery-3.2.0.min.js"></script>
 				<script src="vendor/inputmask/jquery.inputmask.bundle.min.js"></script>
