@@ -34,6 +34,17 @@ body{
 .menu__link--active{
 	background-color: #82c8bd;
 }
+.menu-btn{
+	width: 85px;
+	height: 40px;
+	float: right;
+	background: #1ac7c3;
+	position: relative;
+	cursor: pointer;
+	line-height: 40px;
+	text-align: center;
+	text-transform: uppercase;
+}
 .info{
 	padding: 83px 0 96px 0;
 }
@@ -51,8 +62,6 @@ body{
 	line-height: 24px;
 	text-align: center;
 }
-
-
 .contacts{
 	padding-bottom: 86px;
 }
@@ -107,7 +116,7 @@ body{
 	padding: 62px 0 0 43px;
 }
 .question{
-	width: 540px;
+	width: 49%;
 	height: auto;
 	margin: 0 0 0 93px;
 }
@@ -146,7 +155,7 @@ body{
 	border: none;
 	border-radius: 3px;
 	background-color: #68a097;
-	width: 539px;
+	width: 98.5%;
 	height: 160px;
 	padding: 14px 18px;
 	resize: none;
@@ -166,7 +175,6 @@ body{
 	-moz-box-shadow:    0px 4px 0px 0px rgba(200, 83, 90, 1);
 	box-shadow:         0px 4px 0px 0px rgba(200, 83, 90, 1);
 }
-
 .footer{
 	background: #68a097;
 	text-align: center;
@@ -180,8 +188,6 @@ body{
 	height: 48px;
 	padding: 41px 49px 110px;
 }
-
-
 em{
 	margin: 0 7%;
 }

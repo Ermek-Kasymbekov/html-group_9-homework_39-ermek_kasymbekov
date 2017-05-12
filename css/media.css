@@ -1,59 +1,47 @@
-@media screen and (max-width: 1169px){
-    .logo_box .logotype{
-        margin: 0 auto;
-        padding: 0 8%;
+@media screen and (min-width: 740px){
+    .menu-btn{
+        display: none;
+        margin: 90px 15px 0 0;
     }
 }
-@media screen and (max-width: 800px){
-    .form-block{
-        width: 55%;
-    }
-}
-@media screen and (max-width: 730px) {
-    header ul {
-        list-style: none;
-        margin: 0;
-        padding: 10px 20px;
-        position: absolute;
-        right: 0;
-        top: 69px;
-        background: #1ac7c3;
-    }
-    header li {
-        display: block;
-        padding: 5px 0;
-    }
-    header li a {
-        font-size: 16px;
-        color: #ffffff;
-    }
+@media screen and (max-width: 740px){
     .menu-btn {
         display: block;
     }
     .menu {
         display: none;
-        position: relative;
-        width: auto;
+        margin: 1% 3% 0;
+    }
+    .menu__link{
+        padding: 10px 15px;
+    }
+    .header__logo {
+        padding: 1% 3%;
+    }
+    .contacts__element{
+        display: block;
+        margin: 0 auto;
+        float: none;
     }
     .btn{
-        display: none;
+        margin: 0;
     }
-    .logo {
-        float: left;
-        margin: 20px 0 0 15px;
+    .info__title {
+        font-size: 48px;
     }
-}
-@media screen and (max-width: 550px){
-    .client{
-        width: 100%;
-        padding: 0 10%;
+    .icons {
+        margin: 0 auto;
     }
-    .form-block{
-        width: 90%;
+    .icon {
+        padding: 20px 40px 85px;
     }
 }
-@media screen and (min-width: 730px){
-    .menu-btn{
-        display: none;
+@media screen and (max-width: 370px){
+    .info__title {
+        font-size: 36px;
+        padding-right: 0;
+    }
+    .icon {
+        padding: 13px 30px 76px;
     }
 }
