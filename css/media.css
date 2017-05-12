@@ -1,0 +1,59 @@
+@media screen and (max-width: 1169px){
+    .logo_box .logotype{
+        margin: 0 auto;
+        padding: 0 8%;
+    }
+}
+@media screen and (max-width: 800px){
+    .form-block{
+        width: 55%;
+    }
+}
+@media screen and (max-width: 730px) {
+    header ul {
+        list-style: none;
+        margin: 0;
+        padding: 10px 20px;
+        position: absolute;
+        right: 0;
+        top: 69px;
+        background: #1ac7c3;
+    }
+    header li {
+        display: block;
+        padding: 5px 0;
+    }
+    header li a {
+        font-size: 16px;
+        color: #ffffff;
+    }
+    .menu-btn {
+        display: block;
+    }
+    .menu {
+        display: none;
+        position: relative;
+        width: auto;
+    }
+    .btn{
+        display: none;
+    }
+    .logo {
+        float: left;
+        margin: 20px 0 0 15px;
+    }
+}
+@media screen and (max-width: 550px){
+    .client{
+        width: 100%;
+        padding: 0 10%;
+    }
+    .form-block{
+        width: 90%;
+    }
+}
+@media screen and (min-width: 730px){
+    .menu-btn{
+        display: none;
+    }
+}
